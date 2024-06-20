@@ -1,0 +1,87 @@
+.head{
+    height: 75px;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: line;
+    justify-content: flex-end;
+    gap: 18px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+.searchbar{
+    display: flex;
+    height: 44px;
+    width: 562px;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 auto;
+    background-image: url(mag.png);
+    background-size: 30px 30px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.searchbar:focus{
+    display: flex;
+    height: 44px;
+    width: 562px;
+    border: 1px solid blue;
+    border-radius: 24px;
+    box-shadow: none;
+    margin: 0 auto;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.button{
+    text-align: center;
+}
+
+#submit{
+    height: 50px;
+    width: 150px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: lightblue;
+}
+
+#submit2{
+    height: 50px;
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    background-color: lightyellow;
+    margin-left: 10px;
+}
